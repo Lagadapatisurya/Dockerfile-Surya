@@ -1,4 +1,4 @@
-FROM centos:8
+FROM almalinux
 RUN yum install epel release -y 
 RUN yum install nginx
 RUN rm -rf /usr/sahre/nginx/html/index.html
